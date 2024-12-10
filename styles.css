@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.hero .cta {
+  background-color: #fff;
+  color: #6a11cb;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hero .cta:hover {
+  background-color: #ddd;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.about img {
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+/* Highlights Section */
+.highlights {
+  padding: 60px 20px;
+}
+
+.highlights ul {
+  list-style: none;
+  padding: 0;
+}
+
+.highlights li {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+/* Testimonials Carousel */
+.testimonials-carousel {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f0f0f0;
+}
+
+.testimonials-carousel h2 {
+  font-size: 2rem;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+  padding: 20px;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonial {
+  flex: 0 0 300px;
+  scroll-snap-align: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.testimonial p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.testimonial span {
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer .cta-footer {
+  background-color: #6a11cb;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
